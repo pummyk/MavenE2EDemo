@@ -1,7 +1,7 @@
 package MavenE2EDemo.MavenE2EDemo;
 
 /**
- * Hello world!
+ * Hi world!
  *
  */
 public class App 
