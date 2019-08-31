@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="MavenE2EDemo.MavenE2EDemo.Listeners"/>
+  </listeners>
+  <test thread-count="2" name="validating Text(failed)" parallel="tests">
+    <classes>
+      <class name="MavenE2EDemo.MavenE2EDemo.ValidateText">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- MavenE2EDemo.MavenE2EDemo.ValidateText -->
+    </classes>
+  </test> <!-- validating Text(failed) -->
+</suite> <!-- Failed suite [Suite] -->

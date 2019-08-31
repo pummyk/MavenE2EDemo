@@ -1,0 +1,4 @@
+pageObject/Landingpage.class
+pageObject/LoginPage.class
+MavenE2EDemo/MavenE2EDemo/App.class
+resource/Base.class
